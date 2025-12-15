@@ -75,13 +75,13 @@ function App() {
                     <div className="hero-text">
                         <h1 className="hero-title">
                             <span className="wave">👋</span>
-                            <span>こんにちは、</span>
+                            <span className="highlight">nayu0729</span>の
                             <br />
-                            <span className="highlight">nayu</span>です
+                            ポートフォリオへようこそ！
                         </h1>
-                        <p className="hero-subtitle">情報工学科B3</p>
+                        <p className="hero-subtitle">情報工学部B3</p>
                         <p className="hero-description">
-                            フロントエンドエンジニア志望の大学生です。
+                            個人開発をしている大学生です
                         </p>
                         <div className="hero-buttons">
                             <button
@@ -117,7 +117,7 @@ function App() {
                     <div className="about-content">
                         <div className="about-text">
                             <p>
-                                名城大学情報工学部の学生です。
+                                情報工学部の大学生です。
                                 フロントエンドからバックエンドまで、主に個人で開発を行っています。
                             </p>
                             <p>
@@ -185,9 +185,9 @@ function App() {
                         ご連絡やソースコードをご覧になる際は以下を参照ください
                     </p>
                     <div className="contact-links">
-                        <a href="mailto:231205023@ccmailg.meijo-u.ac.jp" className="contact-link">
+                        <a href="mailto:contacts@nayu0729.com" className="contact-link">
                             <span className="contact-icon">📧</span>
-                            <span>231205023@ccmailg.meijo-u.ac.jp</span>
+                            <span>contacts@nayu0729.com</span>
                         </a>
                         <a
                             href="https://github.com/nayu0729"
@@ -204,7 +204,7 @@ function App() {
 
             {/* フッター */}
             <footer className="footer">
-                <p>&copy; 2025 Nayuta Inaba. All rights reserved.</p>
+                <p>&copy; 2025 nayu0729. All rights reserved.</p>
             </footer>
         </div>
     );
